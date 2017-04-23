@@ -1,0 +1,18 @@
+
+module mypol 1.0;
+
+require {
+	type dri_device_t;
+	type container_t;
+	type unconfined_t;
+	class chr_file { getattr ioctl };
+	class unix_stream_socket connectto;
+}
+
+#============= container_t ==============
+
+#!!!! This avc is allowed in the current policy
+allow container_t dri_device_t:chr_file { getattr ioctl };
+
+#!!!! This avc is allowed in the current policy
+allow container_t unconfined_t:unix_stream_socket connectto;
