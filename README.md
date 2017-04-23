@@ -6,9 +6,9 @@ Very handy to access those few legacy web applications that can't be updated for
 
 ## Tags
 
-`latest`: same as `debian`
-`debian`: built on `debian:8`
-`centos`: built on `centos:7`
+* `latest`: same as `debian`
+* `debian`: built on `debian:8`
+* `centos`: built on `centos:7`
 
 ## Prerequisites
 
