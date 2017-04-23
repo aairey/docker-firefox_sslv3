@@ -6,7 +6,7 @@ Very handy to access those few legacy web applications that can't be updated for
 
 ## Tags
 
-* `latest`: same as `debian`
+* `latest`: same as `centos`, it is the smallest image
 * `debian`: built on `debian:8`
 * `centos`: built on `centos:7`
 
