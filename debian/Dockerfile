@@ -9,7 +9,8 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 # Dependencies tar, curl, glibc, libstdc++ already statisfied
 RUN apt-get update && \
-    apt-get upgrade -y --no-install-recommends apt-utils
+    apt-get install -y --no-install-recommends apt-utils && \
+    apt-get upgrade -y
 # Took dependenies from iceweasel here and added libcanberra-gtk-module
 RUN apt-get install -y \
     bzip2 ca-certificates curl dbus dconf-gsettings-backend dconf-service \
