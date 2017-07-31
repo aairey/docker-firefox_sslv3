@@ -1,5 +1,7 @@
 # firefox-sslv3
 
+[![](https://images.microbadger.com/badges/image/aairey/firefox-sslv3.svg)](https://microbadger.com/images/aairey/firefox-sslv3 "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/aairey/firefox-sslv3.svg)](https://microbadger.com/images/aairey/firefox-sslv3 "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/license/aairey/firefox-sslv3.svg)](https://microbadger.com/images/aairey/firefox-sslv3 "Get your own license badge on microbadger.com")
+
 Docker image which runs a Firefox version that still supports the deprecated protocol SSLv3.  
 Very handy to access those few legacy web applications that can't be updated for whatever reason.
 
